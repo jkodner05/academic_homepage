@@ -5,14 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Jordan Kodner on the Web</title>
     <link rel="stylesheet" href="style.css">
+
+    <link rel="shortcut icon"
+	  href="favicon.png" />
   </head>
-  <body style="background-color:#FBF2E8;">
+  <body>
+  <!--body style="background-color:#FBF2E8;"-->
     
     <div class="header">
       <table class="header">
         <tr>
           <td class="banner">
-            <img height="200" src="portrait.png" alt="Penn Engineering Logo"/>
+            <a href="portrait.png"><img height="200" src="portrait.png" alt="picture of me"/></a>
           </td>
           <td class="title">
             <h1 class="name">Jordan Kodner</h1>
@@ -31,66 +35,95 @@
 
     <ul style="list-style-type:disc">
       <li><a href="#Introduction">About Me</a></li>
-      <li><a href="#Presentations">Presentations and Posters</a></li>
+      <li><a href="#Presentations">Presentations and Proceedings</a></li>
       <li><a href="#Funding">Funding and Fellowships</a></li>
-      <li><a href="#Projects">Affiliated Projects</a></li>
-      <li><a href="#Teaching">Teaching</a></li>
-      <li><a href="#Collaborators">Recent Collaborators</a></li>
+      <li><a href="#Projects">Affiliated Research Projects</a></li>
+      <li><a href="#Teaching">Teaching and Advising</a></li>
+      <li><a href="#Service">Departmental Service</a></li>
+      <li><a href="#Collaborators">Recent Collaborations</a></li>
     </ul>
     
     
     <a name="Introduction"/>
     <p>
-      I am a PhD student (entered 2015) at the <strong><a href="http://www.ling.upenn.edu/">University of Pennsylvania</a></strong>. My primary research interests are in algorithmic models of <strong>child language acquisition</strong> and how early language input interacts with the grammar. Applied, I study <strong>language change as an acquisition-driven process</strong>, as well as the insights that models of acquisition provide for <strong>natural language processing</strong>. I am advised by Charles Yang and Mitch Marcus.
+      I am a PhD student (entered 2015) in the <strong><a href="http://www.ling.upenn.edu/">University of Pennsylvania Department of Linguistics</a></strong> advised by Charles Yang and Mitch Marcus. My primary research revolves around computational models of <strong>child language acquisition</strong> and the role of both early linguistic input and innate linguistic knowledge in learning. One of my focuses is on how the process of acquisition unfolds on the population level to drive <strong>language change</strong>. For me, an ideal model of acquisition might not only explain the dynamics of learning in a single individual, but also the dynamics of a population of individuals over time.</p> 
+
+<p>
+  My other focus is on how insights from child language acquisition can benefit <strong>natural language processing</strong>. Children excel at learning from precisely the kinds of small data sets that standard NLP fails on. So, progress on problems of acquisition is progress on problems in low-resource NLP.
     </p>
+
+  <!--<p>
+    I am also a master's student in the <strong><a href="http://www.cis.upenn.edu/prospective-students/graduate/mse.php">Department of Computer and Information Science</a></strong>. I expect to graduate with an MSE in spring 2018.
+  </p>-->
 
   <p>
     From 2013 through 2015, I was an Associate Scientist at <strong><a href="http://www.raytheon.com/ourcompany/bbn/">Raytheon BBN Technologies</a></strong> in the Speech, Language, and Multimedia group under Amit Srivastava (now ebay), Saurabh Khanwalkar (Bose), and Anoop Kumar (ISI).
-  <p>
+  </p>
     
-    <p  style="padding-bottom:50px"> In 2013, I graduated with a BA in Linguistics and a BSE in Computer and Information Science from the University of Pennsylvania.
+    <p  style="padding-bottom:50px"> I graduated with a BA in Linguistics and a BSE in Computer and Information Science from the University of Pennsylvania in 2013 with theses on syntactic learning and color perception.
   </p>
 
 
 
     <a name="Presentations"/>
     <div class="header">
-      <h3 class="subheader">Presentations and Posters</h3>
+      <h3 class="subheader">Presentations, Posters, and  Proceedings</h3>
     </div>
 
-    <h4>2017</h4>
+
+    <h4>Upcoming</h4>
 
     <ul style="list-style-type:none"  class="hangingindent">
       <li class="hangingindent">
-        Jordan Kodner & Charles Yang. <em>The Acquisition and Actuation of the English Dative Constructions</em> LAGB 2017, Kent, UK 
+        J. Kodner. <em>Modeling Population Structure and Language Change in the St. Louis Corridor</em>. <a href="https://english.wisc.edu/nwav46/">NWAV 46</a>, Madison, WI
+      </li>
+
 
       <li class="hangingindent">
-        Jordan Kodner & Christopher Cerezo Falco. <em>Principled assessment of population structure in models of language change</em> DiGS 2017, Stellenbosch, South Africa 
+        J. Kodner. <em>Modeling Representational Constraints in Word Segmentation</em>. <a href="https://www.bu.edu/bucld/">BUCLD 42</a>, Boston, MA
+      </li>
+
+    <h4>2017</h4>
+
+      <li class="hangingindent">
+        J. Kodner & C. Yang. <em>The Acquisition and Actuation of the English Dative Constructions</em>. <a href="http://www.lagb.org.uk/page-1829030">LAGB 2017</a>, Kent, UK (<em>slides coming soon</em>)
+      </li>
+
+      <li class="hangingindent">
+        J. Kodner & C. Cerezo Falco. <em>Principled assessment of population structure in models of language change</em>. <a href="http://www.sun.ac.za/english/faculty/arts/linguistics/digs-19">DiGS 2017</a>, Stellenbosch, South Africa (<a href="Kodner_DiGS2017_2.pdf">slides</a>)
     </li>
 
       <li class="hangingindent">
-        Jordan Kodner. <em>A Learners’ Perspective on the Rise of the English Dative Alternation</em> DiGS 2017, Stellenbosch, South Africa
+        J. Kodner. <em>A Learners’ Perspective on the Rise of the English Dative Alternation</em>. <a href="http://www.sun.ac.za/english/faculty/arts/linguistics/digs-19">DiGS 2017</a>, Stellenbosch, South Africa (<a href="Kodner_DiGS2017_1.pdf">slides</a>)
+    </li>
+     
+      <li class="hangingindent">
+        J. Hewitt, J. Kodner, M. Marcus, & C. Yang. <em>Semantic Bootstrapping in Frames: A Computational Model of Syntactic Category Acquisition</em>. <a href="http://www.cognitivesciencesociety.org/conference/cogsci2017/">CogSci 2017</a>, London, UK (<a href="cogsci-boot.pdf">poster</a>)
+      </li>
+
+      <!--li class="hangingindent">
+        J. Kodner & C. Cerezo Falco. <em>The Impact of Population Structure on Models of Language Change</em>. <a href="http://www.cognitivesciencesociety.org/conference/cogsci2017/">CogSci 2017</a>, London, UK
+    </li-->
+
+      <li class="hangingindent">
+        S. Caplan & J. Kodner. <em>Vowel Harmony as a Distributional Learning Problem</em>. <a href="http://www.cognitivesciencesociety.org/conference/cogsci2017/">CogSci 2017</a>, London, UK (<a href="CogSci2017-VH-Poster-FinalRevised.pdf">poster</a>)
     </li>
 
       <li class="hangingindent">
-        Spencer Caplan & Jordan Kodner. <em>Vowel Harmony as a Distributional Learning Problem</em> CogSci 2017, London, UK 
+      J. Kodner. <em>The Importance of Population Structure in Models of Language Change</em>. <a href="https://www.york.ac.uk/language/news/events/fwav-2017/">FWAV 4</a>, York, UK (<a href="FWAV4_JKodner.pdf">slides</a>|<a href="http://www.github.com/jkodner05/NetworksAndLangChange">source code</a>)
     </li>
 
       <li class="hangingindent">
-      Jordan Kodner. <em>The Importance of Population Structure in Models of Language Change</em> FWAV5, York, UK
-    </li>
-      
-      <li class="hangingindent">
-        DARPA LORELEI slides (<em><font color="red">contact for more info</font></em>)
+        <em>POS Tagging via Low-Resource Distributional Similarity</em>. DARPA LORELEI (<em>contact for slides</em>)
     </li>
 
       <li class="hangingindent">
-        Jordan Kodner. <em><a href="ACAL2017_Poster.pdf">Subjects are Subjects</a></em> ACAL48, Bloomington, IN and 
-    PLC41, Philadelphia, PA
+        J. Kodner. <em>Shona Subjects are Subjects</em>. <a href="http://www.indiana.edu/~acal48/">ACAL48</a>, Bloomington, IN, and 
+    <a href="http://www.ling.upenn.edu/Events/PLC/plc41/">PLC41</a>, Philadelphia, PA (<a href="ACAL2017_Poster.pdf">poster</a>)
     </li>
 
       <li class="hangingindent">
-        Jordan Kodner, Spencer Caplan, Hongzhi Xu, Mitch Marcus, & Charles Yang. <em>Case Studies in the Automatic Characterization of Grammars from Small Wordlists</em> ComputEL-2, Honolulu, HI	(<a href="ComputEL_2_Poster.pdf">Poster</a> | <em><font color="red">Proceedings coming soon!</font></em>)
+        J. Kodner, S. Caplan, H. Xu, M. Marcus, & C. Yang. <em>Case Studies in the Automatic Characterization of Grammars from Small Wordlists</em>. <a href="http://altlab.artsrn.ualberta.ca/computel-2/">ComputEL-2</a>, Honolulu, HI	(<a href="ComputEL_2_Poster.pdf">poster</a>|<a href="http://www.aclweb.org/anthology/W/W17/W17-01.pdf#page=88">proceedings</a>)
     </li>
 
     </ul>
@@ -99,11 +132,13 @@
       
     <ul style="list-style-type:none"  class="hangingindent">
       <li class="hangingindent">
-        {Jordan Kodner & Spencer Caplan}. <em><a href="http://blogs.umass.edu/comphon/files/2016/09/NECPHON2016_VowelHarmony_KodnerCaplan.pdf">A Computational Model of Vowel Harmony Acquisition</a></em> NECPhon10, Amherst, MA
+        {J. Kodner & S. Caplan}. <em>A Computational Model of Vowel Harmony Acquisition</em>. <a href="http://blogs.umass.edu/comphon/2016/09/20/10th-northeast-computational-phonology-meeting/">NECPhon10</a>, Amherst, MA (<a href="http://blogs.umass.edu/comphon/files/2016/09/NECPHON2016_VowelHarmony_KodnerCaplan.pdf">slides</a>)
     </li>
     
       <li style="padding-bottom:50px" class="hangingindent">
-        DARPA LORELEI slides (<em><font color="red">contact for more info</font></em>)
+        <em>Semantic Similarity and Unsupervised Morphology</em>, 
+	<em>Automatic Vowel Harmony Characterization</em>, 
+	<em>Uyghur A-Raising</em>. DARPA LORELEI (<em>contact for slides</em>)
     </li>
     </ul>
 
@@ -113,24 +148,24 @@
     </div>
     
     <dl  style="padding-bottom:50px">
-      <dt><strong>2017-2021</strong></dt><dd><a href="https://ndseg.asee.org/">National Defense Science and Engineering Graduate (NDSEG) Fellowship</a></dd>
-      <dt><strong>2016-2017</strong></dt><dd>(Summer) DARPA LORELEI / PI Mitch Marcus</dd>
+      <dt><strong><a href="https://ndseg.asee.org/ndseg_fellows/2017_awardees">2017</a>-2021</strong></dt><dd><a href="https://ndseg.asee.org/">National Defense Science and Engineering Graduate (NDSEG) Fellowship</a></dd>
+      <dt><strong>2016, 2017</strong></dt><dd>(Summer) DARPA LORELEI / PI Mitch Marcus</dd>
       <dt ><strong>2015-2017</strong></dt><dd>Benjamin Franklin Fellowship</dd>
     </dl>
     
     
     <a name="Projects"/>
     <div class="header">
-      <h3 class="subheader">Affiliated Projects</h3>
+      <h3 class="subheader">Affiliated Research Projects</h3>
     </div>
 
     <dl  style="padding-bottom:50px">
-      <dt><strong>2015-Present</strong></dt><dd><a href="http://www.darpa.mil/program/low-resource-languages-for-emergent-incidents">DARPA LORELEI</a> (UPenn)</dd>
-      <dt><strong>2014-2015</strong></dt><dd><a href="http://entradahealth.com/technology/clinical-documentation/">Entrada medical speech recognition</a> (BBN)</dd>
-      <dt><strong>2014</strong></dt><dd><a href="https://www.army.mil/standto/archive_2016-11-30">Army MFLTS</a> (BBN)</dd>
-      <dt><strong>2014</strong></dt><dd><a href="http://www.raytheon.com/capabilities/products/m3s/">BBN M3S</a> (BBN)</dd>
-      <dt><strong>2013-2014</strong></dt><dd><a href="http://www.darpa.mil/program/deep-exploration-and-filtering-of-text">DARPA DEFT</a> (BBN)</dd>
-      <dt><strong>2013</strong></dt><dd><a href="https://en.wikipedia.org/wiki/VIRAT">DARPA VIRAT</a> (BBN)</dd>
+      <dt><strong>2015-</strong></dt><dd><a href="http://www.darpa.mil/program/low-resource-languages-for-emergent-incidents">DARPA LORELEI</a></dd>
+      <dt><strong>2014-2015</strong></dt><dd><a href="http://entradahealth.com/technology/clinical-documentation/">BBN/Entrada medical speech recognition</a></dd>
+      <dt><strong>2014</strong></dt><dd><a href="https://www.army.mil/standto/archive_2016-11-30">Army MFLTS</a></dd>
+      <dt><strong>2014</strong></dt><dd><a href="http://www.raytheon.com/capabilities/products/m3s/">BBN M3S</a></dd>
+      <dt><strong>2013-2014</strong></dt><dd><a href="http://www.darpa.mil/program/deep-exploration-and-filtering-of-text">DARPA DEFT</a></dd>
+      <dt><strong>2013</strong></dt><dd><a href="https://en.wikipedia.org/wiki/VIRAT">DARPA VIRAT</a></dd>
     </dl>
 
 
@@ -140,39 +175,77 @@
       <h3 class="subheader">Teaching Experience</h3>
     </div>
      
-    <dl  style="padding-bottom:50px">
-      <dt><strong>2017</strong></dt><dd>TA, LING 230 <a href="https://www.ling.upenn.edu/pc/course/2017A/LING230">Sound Structure of Language</a> (instructor: Rolf Noyer)</dd>
-        <dt><strong>2016</strong></dt><dd>TA, LING 001  <a href="http://www.ling.upenn.edu/courses/Fall_2016/ling001/">Introduction to Linguistics</a> (instructor: Mark Liberman)</dd>
-        <dt><strong>2012-2013</strong></dt><dd>TA, CIS 110 <a href="http://www.cis.upenn.edu/~cis110/12fa/">Introduction to Computer Programming</a> (instructor: Benedict Brown)</dd>
-        <dt><strong>2016-Present</strong></dt><dd>Volunteer, <a href="http://upennwptp.weebly.com/">West Philadelphia Tutoring Project</a> middle school tutor</dd>
-        <dt><strong>2016</strong></dt><dd>Volunteer, Comegys Middle School computer programming, <a href="https://www.nettercenter.upenn.edu/programs/moelis-access-science">Moelis Access Science</a></dd>
-      <dt><strong>2014-2015</strong></dt><dd>Volunteer, <a href="http://tutoringplus.org/enroll/our-tutors/">Tutoring Plus</a> / Cambridge Housing Authority middle school tutor</dd>
-      </dl>
+    <h4>Teaching Assistantships</h4>
+
+    <dl>
+      <dt><strong>2017</strong></dt><dd>LING 230 <a href="https://www.ling.upenn.edu/pc/course/2017A/LING230">Sound Structure of Language</a> (instructor: Rolf Noyer)</dd>
+      <dt><strong>2016</strong></dt><dd>LING 001  <a href="http://www.ling.upenn.edu/courses/Fall_2016/ling001/">Introduction to Linguistics</a> (instructor: Mark Liberman) (<a href="LanguagesOfTheWorld.pdf">sample slides</a>)</dd>
+      <dt><strong>2012-2013</strong></dt><dd>CIS 110 <a href="http://www.cis.upenn.edu/~cis110/12fa/">Introduction to Computer Programming</a> (instructor: Benedict Brown)</dd>
+    </dl>
+
+    <h4>Volunteering</h4>
+
+    <dl>
+      <dt><strong>2016-</strong></dt><dd>Middle school tutor (<a href="http://upennwptp.weebly.com/">West Philadelphia Tutoring Project</a>)</dd>
+      <dt><strong>2016</strong></dt><dd>Comegys Middle School computer programming (<a href="https://www.nettercenter.upenn.edu/programs/moelis-access-science">Moelis Access Science</a>)</dd>
+      <dt><strong>2014-2015</strong></dt><dd>Middle school tutor (<a href="http://tutoringplus.org/enroll/our-tutors/">Tutoring Plus</a> / Cambridge Housing Authority)</dd>
+      <dt><strong>2013, 2017-</strong></dt><dd>Dino Hall and Fossil Prep Lab (<a href="http://www.ansp.org/visit/activities/">Academy of Natural Sciences of Drexel University</a>)</dd>
+    </dl>
     
    
-    
+    <h4>Advising</h4>
+
+    <p  style="padding-bottom:50px">In summer 2017, I advised junior <a href="http://www.denizbeser.org/">Deniz Beser</a> on his <a href="Poster-DenizBeser.pdf">project</a> <em>Part of Speech Tagging for Low-Resource Languages</em>. He <a href="https://s-media-cache-ak0.pinimg.com/originals/bb/57/4c/bb574cac2ba548dc2a40bd787038bbab.gif">won</a> first place in the CIS department's Undergraduate Summer UnPoster Competition.</p>
+
+
+
+    <a name="Service"/>
+    <div class="header">
+      <h3 class="subheader">Departmental Service</h3>
+    </div>
+
+    <h4>Linguistics</h4>
+
+    <dl>
+      <dt><strong>2016-2017</strong></dt><dd><a href="http://www.ling.upenn.edu/Events/PLC/plc41/">PLC41</a> Finance Committee Chairperson and <a href="PLC41poster_fall_email.png">Postermaker</a></dd>
+      <dt><strong>2015-2016</strong></dt><dd><a href="http://www.ling.upenn.edu/Events/PLC/plc40/">PLC40</a> Finance Committee Member and Postermaker</dd>
+      <dt><strong>2016, 2017</strong></dt><dd>Prospective Student Liaison</dd>
+    </dl>
+
+    <h4>CIS</h4>
+
+    <dl  style="padding-bottom:50px">
+      <dt><strong>2016-2017</strong></dt><dd>Computational Linguistics and Lunch (CLunch) Organizer</dd>
+      <dt><strong>2016</strong></dt><dd><a href="http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=51610">MASC-SLL</a> Volunteer</dd>
+    </dl>
+
+
 
     <a name="Collaborators"/>
     <div class="header">
-      <h3 class="subheader">Recent Collaborators</h3>
+      <h3 class="subheader">Recent Collaboration</h3>
     </div>
     
     <ul style="list-style-type:disc; padding-bottom:50px" >
       <li><a href="http://www.spencercaplan.org/">Spencer Caplan</a></li>
       <li><a href="https://www.grasp.upenn.edu/people/christopher-cerezo-falco">Christopher Cerezo Falco</a></li>
+      <li><a href="http://www.seas.upenn.edu/~johnhew/">John Hewitt</a></li>
       <li><a href="https://www.cis.upenn.edu/~mitch/">Mitch Marcus</a></li>
       <li><a href="https://scholar.google.com/citations?user=q0TspZ0AAAAJ&hl=en">Hongzhi Xu</a></li>
       <li><a href="http://www.ling.upenn.edu/~ycharles/">Charles Yang</a></li>
     </ul>
 
 
+
 <hr>
 
-  <A HREF="http://www.ling.upenn.edu/">
-      <IMG ALIGN=LEFT SRC="http://www.ling.upenn.edu/~gene/images/linghome-white.gif"
+<p>There is one other <a href="https://jordankodner.myportfolio.com/">person who shares my name</a>. He does photography.</p>
+
+<p><A HREF="http://www.ling.upenn.edu/">
+      <IMG SRC="http://www.ling.upenn.edu/~gene/images/linghome-white.gif" alt="Dept. of Linguistics Homepage"
            BORDER=1>
-        </A>
-    
+        </A><a href="starlab.html"><img src="StarLabClassicBanner.png" alt="StarLab" height="50" border=1/></a>
+<a href="http://www.anybrowser.org/campaign/"><img src="abanim3.gif" alt="Viewable With Any Browser" height="52"/></a></p>
     
   </body>
 </html>
